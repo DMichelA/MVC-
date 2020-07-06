@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Insert</title>
+<style type="text/css">
+    header{
+        width: 100%;
+        padding: 0px;
+        color: white;
+        text-align: center;
+    }
+    nav ul{
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 254, 254);
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        letter-spacing: normal;
+        overflow: hidden;
+        -webkit-transition: max-height 0.4s;
+        -ms-transition: max-height 0.4s;
+        -moz-transition: max-height 0.4s;
+        -o-transition: max-height 0.4s;
+        transition: max-height 0.4s;
+    }
+    nav ul li{
+        display: inline-block;
+        padding: 15px;
+    }
+    a{
+        color: inherit;
+        display: absolute;
+    }
+    section{
+        line-height: 1.5em;
+        font-size: 0.9em;
+        padding: 10px;
+        margin: 0 auto;
+        max-width: 960px;
+    }
+</style>
+</head>
+<body>
+    <br>
+    <nav>
+      <ul>
+        <h4>INSERT OPERATION</h4>
+      </ul>
+    </nav>
+    <br>
+        <h1>FORMULARIO BOOTSTRAP FRAMEWORK</h1>
+        <p>Registra tus datos de manera correcta en cada campo que lo solicita<p>
+        <form>
+            <div class="form-group">
+                <label for="matricula">Matricula</label>
+                <input type="text" class="form-control" id="matricula" placeholder="Introduce matricula">
+            </div>
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Introduce nombre">
+            </div>
+            <div class="form-group">
+                <label for="onelastname">Primer Apellido</label>
+                <input type="text" class="form-control" id="onelastname" placeholder="Introduce primer apellido">
+            </div>
+
+            <div class="form-group">
+                <label for="twolastname">Segundo Apellido</label>
+                <input type="text" class="form-control" id="twolastname" placeholder="Introduce segundo apellido">
+            </div>
+            <div class="form-group">
+                <label for="edad">Edad</label>
+                <input type="text" class="form-control" id="edad" placeholder="Introduce edad">
+            </div>
+            <div class="form-group">
+                <label for="form-control">Fecha de Nacimiento</label>
+                <input type="date" class="form-control" id="borndate" placeholder="Introduce fecha de nacimiento">
+            </div>
+            <div class="form-group">
+                <label for="form-group">Sexo</label><br>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="sexopt" value="option1"> Femenino
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="sexopt" value="option2"> Masculino
+                  </label>
+            </div>
+            <div class="form-group">
+                <label for="inputState">Estado</label>
+                <select id="inputState" class="form-control">
+                <option selected>Seleccionar...</option>
+                <option>Aguascalientes</option>
+                <option>Baja California</option>
+                <option>Baja California Sur</option>
+                <option>Campeche</option>
+                <option>Chiapas</option>
+                <option>Chihuahua</option>
+                <option>Coahuila de Zaragoza</option>
+                <option>Colima</option>
+                <option>Durango</option>
+                <option>Estado de México</option>
+                <option>Guanajuato</option>
+                <option>Guerrero</option>
+                <option>Hidalgo</option>
+                <option>Jalisco</option>
+                <option>Michoacán de Ocampo</option>
+                <option>Morelos</option>
+                <option>Nayarit</option>
+                <option>Nuevo León</option>
+                <option>Oaxaca</option>
+                <option>Puebla</option>
+                <option>Querétaro</option>
+                <option>Quintana Roo</option>
+                <option>San Luis Potosí</option>
+                <option>Sinaloa</option>
+                <option>Sonora</option>
+                <option>Tabasco</option>
+                <option>Tamaulipas</option>
+                <option>Tlaxcala</option>
+                <option>Veracruz</option>
+                <option>Yucatán</option>
+                <option>Zacatecas</option>
+                </select>
+            </div>
+            <div class="container-fluid">
+                <div class="col-sm-12 text-center">
+                    <button class="btn btn-primary">Save</button>
+                    <button class="btn btn-danger">Cancel</button>
+                    <button class="btn btn-primary" onclick="history.back()"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.646 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L6.207 7.5H11a.5.5 0 0 1 0 1H6.207l2.147 2.146z"/>
+                      </svg> Back
+                    </button>
+                </div>
+            </div><br>
+        </form>
+    </body>
+</html>
